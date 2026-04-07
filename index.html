@@ -1,88 +1,112 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Vlad's Music Site</title>
-        <style>
-            h1 {
-                font-size: 50px;
-                text-align: center;
-            }
 
-            a {
-                text-decoration: none;
-            }
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vlad's Music Site</title>
+</head>
 
-            a:hover {
-                text-decoration: underline;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>Vlad's Music Site</h1>
-        <p>
-            I'm Vlad
-        </p>
-        <p>
-            I'm into making music and hoarding low quality voice notes of it. Once in a while they might appear here
-        </p>
-        <p>My current portable set-up looks like this:</p>
-        <p><img alt="Set-me-up" src="Photos\LogGoop.jpeg" width="300" height="450"> 
-            <img alt="Set-up" src="Photos\SETUP.jpeg" width="300" height="450"></p>
-        <P> Here are some bits from my jams</P>
-        <ul>
-            <li>
-                <a href="Forest Jam itself.aac">Forest</a>:
-                <audio controls src="Music\Forest Jam itself.aac"></audio>
-            </li>
-            <li>
-                <a href="Botanisher Jam.mpeg">Botanical Garden</a>:
-                <audio controls src="Music\Botanisher Jam.mpeg"></audio>
-            </li>
-            <li>
-                <a href="Chord jam.mpeg">Hizzord</a>:
-                <audio controls src="Music\Chord jam.mpeg"></audio>
-            </li>
-            <li>
-                <a href="Bed Jam with flip.mpeg">Fling</a>:
-                <audio controls src="Music\Bed Jam with flip.mpeg"></audio>
-            </li>
-            <li>
-                <a href="Tek.mpeg">Tek </a>:
-                <audio controls src="Music\Tek.mpeg"></audio>
-            </li>
-            <li>
-                <a href="MinecraftAss.mpeg">Krast</a>:
-                <audio controls src="Music\MinecraftAss.mpeg"></audio>
-            </li>
-            <li>
-                <a href="Trio++.mpeg">Trio++</a>:
-                <audio controls src="Music\Trio++.mpeg"></audio>
-            </li>
-            <li>
-                <a href="Chill Jam Trio.mpeg">Trio+</a>:
-                <audio controls src="Music\Chill Jam Trio.mpeg"></audio>
-            </li>
-        
-            <li>
-                <a href="Shheeet.mpeg">PufPuf</a>:
-                <audio controls src="Music\Shheeet.mpeg"></audio>
-            </li>
-            <li>
-                <a href="RaioFoot.mpeg">Raioot</a>:
-                <audio controls src="Music\RaioFoot.mpeg"></audio>
-            </li>
-             <li>
-                <a href="Floating Lines.mpeg">FloatingLines</a>:
-                <audio controls src="Music\Floating Lines.mpeg"></audio>
-            </li>
-            <li>
-                <a href="Chill Jam Old.mpeg">BeEm</a>:
-                <audio controls src="Music\Chill jam old.mpeg"></audio>
-            </li>
-        </ul>
+<body>
+    <header>
+    <h1>Vlad's Music Site</h1>
+    <p>
+        I'm <span class="rainbow">Vlad</span>
+    </p>
+    <p>
+        I'm into making music and hoarding low quality voice notes of it. Once in a while they might appear here
+    </p>
+    </header>
+    <div class="media">
+        <div class="column">
+            <p>My current portable set-up looks like this:</p>
+            <p><img alt="Set-me-up" src="Photos\LogGoop.jpeg" width="300" height="450">
+                <img alt="Set-up" src="Photos\SETUP.jpeg" width="300" height="450">
+            </p>
+        </div>
 
-        
-    </body>
+        <div class="column">
+            <P> Here are some bits from my jams</P>
+            <div class="column">
+                <dl>
+                    <dt>
+                        <a href="Forest Jam itself.aac">Forest</a>
+                    </dt>
+                    <dd>
+                        <audio controls src="Music\Forest Jam itself.aac"></audio>
+                    </dd>
+                    <dt>
+                        <a href="Botanisher Jam.mpeg">Botanical Garden</a>
+                    </dt>
+                    <dd>
+                        <audio controls src="Music\Botanisher Jam.mpeg"></audio>
+                    </dd>
+                    <dt>
+                        <a href="Chord jam.mpeg">Hizzord</a>
+                    </dt>
+                    <dd> <audio controls src="Music\Chord jam.mpeg"></audio>
+                    </dd>
+                    <dt>
+                        <a href="Bed Jam with flip.mpeg">Fling</a>
+                    </dt>
+                    <dd> <audio controls src="Music\Bed Jam with flip.mpeg"></audio>
+                    </dd>
+                    <dt>
+                        <a href="Tek.mpeg">Tek </a>
+                    </dt>
+                    <dd> <audio controls src="Music\Tek.mpeg"></audio>
+                    </dd>
+                    <dt>
+                        <a href="MinecraftAss.mpeg">Krast</a>
+                    </dt>
+                    <dd> <audio controls src="Music\MinecraftAss.mpeg"></audio>
+                    </dd>
+                </dl>
+            </div>
+            <div class="column">
+                <dl>
+                    <dt>
+                        <a href="Trio++.mpeg">Trio++</a>
+                    </dt>
+                    <dd> <audio controls src="Music\Trio++.mpeg"></audio>
+                    </dd>
+                    <dt>
+                        <a href="Chill Jam Trio.mpeg">Trio+</a>
+                    </dt>
+                    <dd><audio controls src="Music\Chill Jam Trio.mpeg"></audio></dd>
+
+                    <dt>
+                        <a href="Shheeet.mpeg">PufPuf</a>
+                    </dt>
+                    <dd><audio controls src="Music\Shheeet.mpeg"></audio></dd>
+
+                    <dt>
+                        <a href="RaioFoot.mpeg">Raioot</a>
+                    </dt>
+                    <dd>
+                        <audio controls src="Music\RaioFoot.mpeg"></audio>
+                    </dd>
+
+                    <dt>
+                        <a href="Floating Lines.mpeg">FloatingLines</a>
+                    </dt>
+                    <dd>
+                        <audio controls src="Music\Floating Lines.mpeg"></audio>
+                    </dd>
+                    <dt>
+                        <a href="Chill Jam Old.mpeg">BeEm</a>
+                    </dt>
+                    <dd>
+                        <audio controls src="Music\Chill jam old.mpeg"></audio>
+                    </dd>
+
+                </dl>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
 </html>

@@ -1,0 +1,48 @@
+    body {
+        background: black;
+        color:white;
+    }
+
+    h1 {
+        font-size: 50px;
+         text-align: center;
+    }
+    header {
+        text-align: center;
+        font-size: 20px;
+    }
+    .rainbow{
+        
+    }
+
+    a {
+        text-decoration: none;
+        color:orange;
+        text-shadow: 0px 0px 1px yellow;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .column {
+        display: inline-block;
+        margin-left: 1em;
+        vertical-align: top;
+        
+    }
+    dl {
+        text-align: left;
+    }
+    dt, dd {
+        margin-left: 2em;
+    }
+
+    .column p:first-child {
+        font-weight: bold;
+    }
+
+    .media {
+        margin:auto;
+        text-align: center;
+    }
